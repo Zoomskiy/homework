@@ -1,0 +1,30 @@
+.someClass {
+
+}
+
+.error {
+    border: 1px solid #ff0000;
+}
+
+.hw3Wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 600px;
+    justify-content: space-around;
+}
+.hw3Wrapper button {
+    width: 80px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #7c63ff;
+    border-radius: 10px;
+    box-shadow: -5px -5px 3px #5f5aff;
+    font-weight: bold;
+}
+.hw3Wrapper input {
+    max-width: 120px;
+    padding: 10px;
+    font-style: oblique;
+    background-color: #9187ff;
+
+}
