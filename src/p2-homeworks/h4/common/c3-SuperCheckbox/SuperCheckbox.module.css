@@ -41,7 +41,7 @@
 }
 
 input:checked + .spanClassName:before {
-    background: #dbc03f;
+    background: #6cce26;
 }
 
 input:checked + .spanClassName:after {
