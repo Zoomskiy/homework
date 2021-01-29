@@ -6,12 +6,16 @@ import {restoreState, saveState} from "./localStorage/localStorage";
 function HW6() {
     const [value, setValue] = useState<string>("");
 
+
     const save = () => {
         saveState<string>("editable-span-value", value);
     };
     const restore = () => {
         // setValue();
+        let text = restoreState("editable-span-value","")
+        setValue(text)
     };
+
 
     return (
         <div>
