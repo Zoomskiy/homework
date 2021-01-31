@@ -7,7 +7,6 @@ type SuperSelectPropsType = DefaultSelectPropsType & {
     options?: any[]
     onChangeOption?: (option: any) => void
 }
-
 const SuperSelect: React.FC<SuperSelectPropsType> = (
     {
         options,
@@ -22,7 +21,6 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
         onChange && onChange(e)
         onChangeOption && onChangeOption(e.currentTarget.value)
     }
-
     return (
         <select onChange={onChangeCallback} {...restProps}>
             {mappedOptions}
